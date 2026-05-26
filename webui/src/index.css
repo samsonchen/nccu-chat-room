@@ -60,7 +60,7 @@ body {
 .join-hero {
   flex-shrink: 0;
   height: 296px;
-  background-image: url('/images/generated-1779761061410.png');
+  background-image: url('/nccu-chat-room/images/generated-1779761061410.png');
   background-size: cover;
   background-position: center;
 }
@@ -106,7 +106,7 @@ body {
   display: none;
   height: 144px;
   border-radius: 16px;
-  background-image: url('/images/generated-1779761073218.png');
+  background-image: url('/nccu-chat-room/images/generated-1779761073218.png');
   background-size: cover;
   background-position: center;
 }
@@ -172,7 +172,7 @@ body {
 .join-bottom-photo {
   flex-shrink: 0;
   height: 164px;
-  background-image: url('/images/generated-1779761067948.png');
+  background-image: url('/nccu-chat-room/images/generated-1779761067948.png');
   background-size: cover;
   background-position: center;
 }
@@ -441,7 +441,7 @@ body {
 
   .join-hero {
     height: 248px;
-    background-image: url('/images/generated-1779761075973.png');
+    background-image: url('/nccu-chat-room/images/generated-1779761075973.png');
   }
 
   .join-accent { height: 6px; }
