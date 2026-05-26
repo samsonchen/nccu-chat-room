@@ -1,0 +1,1490 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "LnUfo",
+      "x": 0,
+      "y": 0,
+      "name": "Join Screen – Desktop",
+      "width": 1440,
+      "height": 900,
+      "fill": "#F3EBE2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "gU5nU",
+          "name": "dNav",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "#C4CFDE",
+          "padding": [
+            0,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "XrDzq",
+              "fill": "#1A1A1A",
+              "content": "AnonChat",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CVqc2",
+          "name": "dHero",
+          "width": "fill_container",
+          "height": 296,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1779761061410.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "NiOP4",
+          "width": "fill_container",
+          "height": 8,
+          "fill": "#C4CFDE"
+        },
+        {
+          "type": "frame",
+          "id": "AwIrg",
+          "name": "dCenter",
+          "width": "fill_container",
+          "height": "fill_container",
+          "padding": [
+            16,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XvqOt",
+              "name": "dForm",
+              "width": 500,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AVDie",
+                  "fill": "#1A1A1A",
+                  "content": "AnonChat",
+                  "fontFamily": "Inter",
+                  "fontSize": 48,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "R1kZX7",
+                  "fill": "#3D3D3D",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "No sign-up. Just pick a callsign and start talking.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "EMPBt",
+                  "name": "dIG",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Jdsbo",
+                      "fill": "#1A1A1A",
+                      "content": "Callsign",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dnsOq",
+                      "name": "dFld",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 2,
+                        "fill": "#C4CFDE"
+                      },
+                      "padding": [
+                        0,
+                        18
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rEHvi",
+                          "fill": "#A8A8A8",
+                          "content": "Enter your callsign…",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "CVcOj",
+                      "fill": "#3D3D3D",
+                      "content": "1–20 characters, letters, numbers, underscore",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xPtLo",
+                      "fill": "#C0392B",
+                      "content": "Invalid callsign. Use only letters, numbers, and underscores.",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h7KRF",
+                  "name": "dBtn",
+                  "width": "fill_container",
+                  "height": 54,
+                  "fill": "#D4916E",
+                  "cornerRadius": 9999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kZBT0",
+                      "fill": "#FFFFFF",
+                      "content": "Join Chat",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tMHEy",
+          "name": "dPhoto",
+          "width": "fill_container",
+          "height": 164,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1779761067948.png",
+            "mode": "fill"
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "yvc95",
+      "x": 0,
+      "y": 960,
+      "name": "Join Screen – Mobile",
+      "width": 390,
+      "height": 844,
+      "fill": "#F3EBE2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "UoOYK",
+          "name": "mNav",
+          "width": "fill_container",
+          "height": 48,
+          "fill": "#C4CFDE",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "iPZuF",
+              "fill": "#1A1A1A",
+              "content": "AnonChat",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ctJ7j",
+          "name": "mHero",
+          "width": "fill_container",
+          "height": 248,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1779761075973.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "bY7pE",
+          "width": "fill_container",
+          "height": 6,
+          "fill": "#C4CFDE"
+        },
+        {
+          "type": "frame",
+          "id": "I76Bm",
+          "name": "mCnt",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "Eh7Xi",
+              "fill": "#1A1A1A",
+              "content": "AnonChat",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "y3wTc",
+              "fill": "#3D3D3D",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "No sign-up. Just pick a callsign and start talking.",
+              "lineHeight": 1.5,
+              "fontFamily": "Geist",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "KDjwM",
+              "name": "mPht",
+              "width": "fill_container",
+              "height": 144,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1779761073218.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 16
+            },
+            {
+              "type": "frame",
+              "id": "wzKAw",
+              "name": "mIG",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "r3f53F",
+                  "fill": "#1A1A1A",
+                  "content": "Callsign",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "mstJ2",
+                  "name": "mFld",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#C4CFDE"
+                  },
+                  "padding": [
+                    0,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hZVGX",
+                      "fill": "#A8A8A8",
+                      "content": "Enter your callsign…",
+                      "fontFamily": "Geist",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "vRzyl",
+                  "fill": "#3D3D3D",
+                  "content": "1–20 characters, letters, numbers, underscore",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Ahdmy",
+                  "fill": "#C0392B",
+                  "content": "Invalid callsign. Use only letters, numbers, and underscores.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Nd84N",
+              "name": "mBtn",
+              "width": "fill_container",
+              "height": 54,
+              "fill": "#D4916E",
+              "cornerRadius": 9999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OORo5",
+                  "fill": "#FFFFFF",
+                  "content": "Join Chat",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Hhu2Q",
+      "x": 1520,
+      "y": 0,
+      "name": "Chat Screen – Desktop",
+      "width": 1440,
+      "height": 900,
+      "fill": "#F3EBE2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "hvglH",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#D4916E",
+          "padding": [
+            0,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "OMHYg",
+              "name": "deskHeaderLeft",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BNqkO",
+                  "name": "deskAppIcon",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lJzqm",
+                      "name": "deskAppIconText",
+                      "fill": "#D4916E",
+                      "content": "A",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "q0oEtB",
+                  "name": "deskAppTitle",
+                  "fill": "#FFFFFF",
+                  "content": "AnonChat",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GcxMa",
+              "name": "deskHeaderSpacer",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "enYZC",
+              "name": "deskStatusArea",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "s4HPnF",
+                  "name": "deskStatusDot",
+                  "fill": "#5ED88A",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "type": "text",
+                  "id": "G9jJA",
+                  "name": "deskStatusText",
+                  "opacity": 0.9,
+                  "fill": "#FFFFFF",
+                  "content": "Connected",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GE1cl",
+          "name": "Message Area",
+          "clip": true,
+          "width": "fill_container",
+          "height": 748,
+          "fill": "#F3EBE2",
+          "layout": "vertical",
+          "padding": [
+            16,
+            0,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "b3K7Qz",
+              "name": "Ribbon Strip",
+              "width": "fill_container",
+              "height": 4,
+              "fill": "#C4CFDE"
+            },
+            {
+              "type": "frame",
+              "id": "kaCR0",
+              "name": "Messages Column",
+              "width": 800,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                0,
+                0,
+                8,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "V1YgO",
+                  "name": "Photo Ribbon",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "edokov95",
+                    "link": "https://unsplash.com/@edokov95",
+                    "author": "Ian Edokov"
+                  },
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1687289005111-46e364abc7d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3NjEwMjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BAqOT",
+                      "name": "photoRibbonLabelFrame",
+                      "fill": "#00000033",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BQVVA",
+                          "name": "photoRibbonLabel",
+                          "fill": "#FFFFFF",
+                          "content": "3 people chatting now",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iRNAE",
+                  "name": "sysMsg1",
+                  "width": "fill_container",
+                  "padding": [
+                    6,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "s8fqNd",
+                      "name": "sysMsg1Pill",
+                      "fill": "#C4CFDE",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        6,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a9E9Uy",
+                          "name": "sysMsg1Text",
+                          "fill": "#3D3D3D",
+                          "content": "Ghost42 joined the chat",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MR8RX",
+                  "name": "otherMsg1",
+                  "width": "fill_container",
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qfzJR",
+                      "name": "otherMsg1Bubble",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "M4ILOF",
+                          "name": "otherMsg1Name",
+                          "fill": "#D4916E",
+                          "content": "CoolDog",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jn1pE",
+                          "name": "otherMsg1Text",
+                          "fill": "#1A1A1A",
+                          "textGrowth": "fixed-width",
+                          "width": 320,
+                          "content": "Hey everyone! Welcome to AnonChat 👋",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m5bxG1",
+                          "name": "otherMsg1Time",
+                          "opacity": 0.5,
+                          "fill": "#3D3D3D",
+                          "content": "14:02",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VTAn3",
+                  "name": "ownMsg1Wrap",
+                  "width": "fill_container",
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ecG4p",
+                      "name": "ownMsg1Bubble",
+                      "fill": "#D4916E",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a4NfE",
+                          "name": "ownMsg1Text",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 280,
+                          "content": "Thanks! Really love this setup 😄",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EJjy0",
+                          "name": "ownMsg1Time",
+                          "opacity": 0.6,
+                          "fill": "#FFFFFF",
+                          "content": "14:02",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RIb8r",
+                  "name": "sysMsg2",
+                  "width": "fill_container",
+                  "padding": [
+                    6,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pFOtH",
+                      "name": "sysMsg2Pill",
+                      "fill": "#C4CFDE",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        6,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZJAJ2",
+                          "name": "sysMsg2Text",
+                          "fill": "#3D3D3D",
+                          "content": "Pixel99 joined the chat",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "r1ZC1",
+                  "name": "otherMsg2",
+                  "width": "fill_container",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "z9geX",
+                      "name": "otherMsg2Bubble",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W01OEG",
+                          "name": "otherMsg2Name",
+                          "fill": "#D4916E",
+                          "content": "Ghost42",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "o0nnNF",
+                          "name": "otherMsg2Text",
+                          "fill": "#1A1A1A",
+                          "textGrowth": "fixed-width",
+                          "width": 300,
+                          "content": "Anyone know when the next update drops?",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "H361Q",
+                          "name": "otherMsg2Time",
+                          "opacity": 0.5,
+                          "fill": "#3D3D3D",
+                          "content": "14:04",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "orFN5",
+                  "name": "otherMsg3",
+                  "width": "fill_container",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fs1Qx",
+                      "name": "otherMsg3Bubble",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uSiFK",
+                          "name": "otherMsg3Name",
+                          "fill": "#D4916E",
+                          "content": "Pixel99",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "decIp",
+                          "name": "otherMsg3Text",
+                          "fill": "#1A1A1A",
+                          "textGrowth": "fixed-width",
+                          "width": 360,
+                          "content": "Just joined from Tokyo 🌏 Love this anonymous chat concept!",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UawzV",
+                          "name": "otherMsg3Time",
+                          "opacity": 0.5,
+                          "fill": "#3D3D3D",
+                          "content": "14:05",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qPQCj",
+                  "name": "ownMsg2Wrap",
+                  "width": "fill_container",
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ChqMn",
+                      "name": "ownMsg2Bubble",
+                      "fill": "#D4916E",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yGcIZ",
+                          "name": "ownMsg2Text",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 300,
+                          "content": "No clue on the update, but welcome Pixel! 🙌",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "W9u9R",
+                          "name": "ownMsg2Time",
+                          "opacity": 0.6,
+                          "fill": "#FFFFFF",
+                          "content": "14:05",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tLdt0",
+          "name": "Input Bar",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#FFFFFF",
+          "gap": 16,
+          "padding": [
+            0,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "uTBEV",
+              "name": "deskInputField",
+              "width": "fill_container",
+              "height": 48,
+              "fill": "#F3EBE2",
+              "cornerRadius": 24,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1.5,
+                "fill": "#D4916E"
+              },
+              "padding": [
+                0,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gA8gC",
+                  "name": "deskInputPlaceholder",
+                  "opacity": 0.4,
+                  "fill": "#1A1A1A",
+                  "content": "Type a message…",
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iFPr0",
+              "name": "deskSendBtn",
+              "width": 120,
+              "height": 48,
+              "fill": "#D4916E",
+              "cornerRadius": 9999,
+              "gap": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "VG2fF",
+                  "name": "deskSendIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "send",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "text",
+                  "id": "M2CViO",
+                  "name": "deskSendText",
+                  "fill": "#FFFFFF",
+                  "content": "Send",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pNdnM",
+      "x": 1520,
+      "y": 960,
+      "name": "Chat Screen – Mobile",
+      "width": 390,
+      "height": 844,
+      "fill": "#F3EBE2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "M3pAh",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 60,
+          "fill": "#D4916E",
+          "padding": [
+            0,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "CO8c6",
+              "name": "mobHeaderLeft",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kqWG9",
+                  "name": "mobAppIcon",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cRPOy",
+                      "name": "mobAppIconText",
+                      "fill": "#D4916E",
+                      "content": "A",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "p0wxv",
+                  "name": "mobAppTitle",
+                  "fill": "#FFFFFF",
+                  "content": "AnonChat",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cerD0",
+              "name": "mobHeaderSpacer",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "QeBsT",
+              "name": "mobStatusArea",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "ba81M",
+                  "name": "mobStatusDot",
+                  "fill": "#5ED88A",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "jMKGK",
+                  "name": "mobStatusText",
+                  "opacity": 0.9,
+                  "fill": "#FFFFFF",
+                  "content": "Connected",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PRMF1",
+          "name": "mobRibbon",
+          "width": "fill_container",
+          "height": 4,
+          "fill": "#C4CFDE"
+        },
+        {
+          "type": "frame",
+          "id": "o16gjv",
+          "name": "Messages",
+          "clip": true,
+          "width": "fill_container",
+          "height": 700,
+          "fill": "#F3EBE2",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "cBfjv",
+              "name": "mobSys1",
+              "width": "fill_container",
+              "padding": [
+                4,
+                0
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wFWAC",
+                  "name": "mobSys1Pill",
+                  "fill": "#C4CFDE",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    5,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A09qt9",
+                      "name": "mobSys1Text",
+                      "fill": "#3D3D3D",
+                      "content": "Ghost42 joined the chat",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z4DGx1",
+              "name": "mobOther1",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "R0HEgD",
+                  "name": "mobOther1Bubble",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    9,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qEKaH",
+                      "name": "mobOther1Name",
+                      "fill": "#D4916E",
+                      "content": "CoolDog",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kd1XH",
+                      "name": "mobOther1Text",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Hey everyone! Welcome 👋",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W0Hm1x",
+                      "name": "mobOther1Time",
+                      "opacity": 0.5,
+                      "fill": "#3D3D3D",
+                      "content": "14:02",
+                      "fontFamily": "Geist",
+                      "fontSize": 9,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MEqjE",
+              "name": "mobOwn1Wrap",
+              "width": "fill_container",
+              "justifyContent": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "O02Rri",
+                  "name": "mobOwn1Bubble",
+                  "fill": "#D4916E",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    9,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xTVLf",
+                      "name": "mobOwn1Text",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": 200,
+                      "content": "Thanks! Great to be here 😄",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TU5Fq",
+                      "name": "mobOwn1Time",
+                      "opacity": 0.6,
+                      "fill": "#FFFFFF",
+                      "content": "14:02",
+                      "fontFamily": "Geist",
+                      "fontSize": 9,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XFt9X",
+              "name": "mobSys2",
+              "width": "fill_container",
+              "padding": [
+                4,
+                0
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YeqMi",
+                  "name": "mobSys2Pill",
+                  "fill": "#C4CFDE",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    5,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cjyaR",
+                      "name": "mobSys2Text",
+                      "fill": "#3D3D3D",
+                      "content": "Pixel99 joined the chat",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sZFxa",
+              "name": "mobOther2",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wW6Jy",
+                  "name": "mobOther2Bubble",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    9,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ejqvp",
+                      "name": "mobOther2Name",
+                      "fill": "#D4916E",
+                      "content": "Pixel99",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vucbZ",
+                      "name": "mobOther2Text",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": 230,
+                      "content": "Joining from Tokyo 🌏 Love anonymous chat!",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iI4yE",
+                      "name": "mobOther2Time",
+                      "opacity": 0.5,
+                      "fill": "#3D3D3D",
+                      "content": "14:05",
+                      "fontFamily": "Geist",
+                      "fontSize": 9,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wqW76",
+              "name": "mobOwn2Wrap",
+              "width": "fill_container",
+              "justifyContent": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f87l5Y",
+                  "name": "mobOwn2Bubble",
+                  "fill": "#D4916E",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    9,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Gh5FG",
+                      "name": "mobOwn2Text",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": 170,
+                      "content": "Welcome Pixel! 🙌",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OJtbR",
+                      "name": "mobOwn2Time",
+                      "opacity": 0.6,
+                      "fill": "#FFFFFF",
+                      "content": "14:06",
+                      "fontFamily": "Geist",
+                      "fontSize": 9,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gsmtQ",
+          "name": "Input Bar",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#FFFFFF",
+          "gap": 10,
+          "padding": [
+            0,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FGMiT",
+              "name": "mobInputField",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "#F3EBE2",
+              "cornerRadius": 22,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1.5,
+                "fill": "#D4916E"
+              },
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "X9zppJ",
+                  "name": "mobInputPlaceholder",
+                  "opacity": 0.4,
+                  "fill": "#1A1A1A",
+                  "content": "Type a message…",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n6rjGW",
+              "name": "mobSendBtn",
+              "width": 44,
+              "height": 44,
+              "fill": "#D4916E",
+              "cornerRadius": 9999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "eW7az",
+                  "name": "mobSendIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "send",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
